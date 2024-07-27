@@ -1,4 +1,4 @@
-import gettingAnswers from "../tensorflow/index.js";
+import gettingAnswers from "./tensorflow/index.js";
 const form = document.querySelector("form");
 form.addEventListener("submit", async (data) => {
   data.preventDefault();
